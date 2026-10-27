@@ -1,0 +1,19 @@
+node_modules
+dist
+.env
+serviceAccountKey.json
+*.log
+
+# --- Suggested Additions ---
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor specific files (VS Code, WebStorm, etc.)
+.vscode/
+.idea/
+
+# Local database files (if you are storing local SQLite/SQLite3 files for testing)
+*.sqlite
+*.sqlite3
